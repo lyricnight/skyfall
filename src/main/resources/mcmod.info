@@ -1,0 +1,16 @@
+[
+{
+  "modid": "skyfall",
+  "name": "Skyfall",
+  "description": "1.8.9 mod created by lyric intended for Hypixel Skyblock.",
+  "version": "2.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["lyric, turtle"],
+  "credits": "eva for help originally",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

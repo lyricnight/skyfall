@@ -1,0 +1,41 @@
+{
+  "required": true,
+  "minVersion": "0.7.11",
+  "priority": 1009,
+  "mixinPriority": 1009,
+  "verbose": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.lyric.skyfall.asm.mixin",
+  "refmap": "mixins.skyfall.refmap.json",
+  "mixins": [
+    "MixinBlockSlab",
+    "MixinBlockStairs",
+    "MixinChunk",
+    "MixinEndermanEntity",
+    "MixinEntityLivingBase",
+    "MixinModList",
+    "MixinNetworkManager",
+    "MixinWorld"
+  ],
+  "client": [
+    "MixinAbstractClientPlayer",
+    "MixinChatLine",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiIngame",
+    "MixinGuiNewChat",
+    "MixinGuiScreen",
+    "MixinItemRenderer",
+    "MixinMainMenu",
+    "MixinMinecraft",
+    "MixinPlayerControllerMP",
+    "MixinRender",
+    "MixinRendererLivingEntity",
+    "MixinRenderGlobal",
+    "MixinRenderItemFrame",
+    "MixinRenderManager",
+    "MixinRenderPlayer",
+    "MixinTextureManager",
+    "accessors.IEntityPlayerSPAccessor"
+  ]
+}
